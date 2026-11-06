@@ -70,7 +70,7 @@
     margin: 0;
 }
 .main{
-    background-color: #F7F8FA;
+    background-color: var(--bs-tertiary-bg);
     
 }
 
@@ -98,10 +98,10 @@
     
 }
 .form-panel{
-background-color: #F3F8FB;
+background-color: var(--bs-tertiary-bg);
 }
 .info-panel{
-background-color: #F7F8FA;
+background-color: var(--bs-tertiary-bg);
 }
 
 .theform ul{
@@ -125,26 +125,26 @@ background-color: #F7F8FA;
 }
 /*event.html*/
 .event_info{
-    background-color: #f8fafc;
+    background-color: var(--bs-tertiary-bg);
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
     text-align: right;
 }
 #event_title{
-    color:#172554;
+    color: var(--bs-emphasis-color);
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 15px;
     text-align: right;
 }
 #event_date{
-    color:#1e3a8a;
+    color: var(--bs-secondary-color);
     font-size: 20px;
     margin-bottom: 15px;
 }
 #event_location{
-    color:#334155;
+    color: var(--bs-secondary-color);
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -152,9 +152,9 @@ background-color: #F7F8FA;
 }
 .section_title{
     text-align: center;
-    color: #172554;
+    color: var(--bs-emphasis-color);
     font-size: 24px;
-    background-color:#f8fafc ;
+    background-color: var(--bs-tertiary-bg);
 
 }
 #event_map{
@@ -168,7 +168,7 @@ background-color: #F7F8FA;
     padding: 10px;
 }
 .event_description {
-    background-color:#f8fafc ;
+    background-color: var(--bs-tertiary-bg);
     text-align: right;
     font-size: 18px;
 }
@@ -195,7 +195,7 @@ background-color: #F7F8FA;
     margin-bottom: 20px;
     
 }
-#semilar_title{color:#172554;
+#semilar_title{color: var(--bs-emphasis-color);
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 15px;
