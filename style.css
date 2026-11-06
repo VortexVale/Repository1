@@ -164,7 +164,7 @@ background-color: var(--bs-tertiary-bg);
     border-radius: 12px;
     margin: 15px 0 15px auto;
     display: block;
-    border: 1px solid #053672;
+    border: 1px solid var(--bs-border-color);
     padding: 10px;
 }
 .event_description {
@@ -179,7 +179,7 @@ background-color: var(--bs-tertiary-bg);
     width:30%;
     height: auto;
     margin: 20px;
-    border: 1px solid #053672;
+    border: 1px solid var(--bs-border-color);
     border-radius: 18px;
     padding: 5px;
     box-shadow: 2px 2px 5px #999;
@@ -215,7 +215,7 @@ background-color: var(--bs-tertiary-bg);
     margin: 50px;
     width: 40%;
     height: auto;
-    border: 1px solid #053672;
+    border: 1px solid var(--bs-border-color);
     text-align: center;
     border-radius: 18px;
     box-shadow: 2px 2px 5px #999;
@@ -237,4 +237,9 @@ background-color: var(--bs-tertiary-bg);
     .title { font-size: 21px; }
     .section-title { font-size: 21px; }
     .site-navbar ul { gap: 12px; }
+}
+
+[data-bs-theme="dark"] .contact-title {
+    background-color: #0b3a4f;
+    border-bottom: 4px solid #B7A454;
 }
